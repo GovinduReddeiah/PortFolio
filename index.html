@@ -15,22 +15,31 @@
     .role{
         font-size: 30px;
     }
+    body{
+          background-image: url(bg.main.jpg); 
+          background-repeat: no-repeat;
+          background-size:cover; 
+        }
+    .img-fluid{
+        filter: drop-shadow(18px 18px 18px #030303);
+    }
+    
 </style>
 <body>
  <!-- Nav Bar Compo -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top  ">
+    <nav class="navbar navbar-light  navbar-expand-lg fixed-top  ">
             <div class="container-fluid p-2">
-                <a href="#" class="navbar-brand ml-3"><span class="bg-info">Govindu</span><span class="bg-danger"> Reddeiah</span></a>
+                <a href="#" class="navbar-brand ml-3"><span class="bg-info px-1">Govindu</span><span class="bg-danger px-2"> Reddeiah</span></a>
                 <button class="btn  navbar-toggler " type="button" data-toggle="collapse" data-target="#threelineitems">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end  mr-5" id="threelineitems">
                         <ul class="navbar-nav">
                             <li class="nav-item ml-4">
-                                <a href="#" class="nav-link  active text-lg"><strong class="bg-info p-2">My Resume/CV</strong></a>
+                                <a href="https://s.docworkspace.com/d/AJKxporggv0o-bW7yuSdFA" class="nav-link  active text-lg"><strong class="bg-info p-2">My Resume/CV</strong></a>
                             </li>
                             <li class="nav-item ml-4">
-                                <a href="#contact" class="nav-link"><strong class="text-light bg-warning p-2">Contact</strong></a>
+                                <a href="mailto:govindujei@gmail.com" class="nav-link"><strong class="text-light bg-warning p-2">Contact</strong></a>
                             </li>
                         </ul>
                 </div>
@@ -38,45 +47,32 @@
         </nav>
        <!-- intro Compo -->
 <div class="container mt-5">
-   <div class="row   align-items-center ">
+   <div class="row align-items-center ">
               <div class="col-md-6  mt-5  col-sm-12">
                             <div class="text-center mb-5">
-                                <a href="https://www.linkedin.com/in/govindu-reddeiah" class="inline-item"><i class="fab fa-2x fa-linkedin  shadow bg-light rounded-circle p-3  rounded" aria-hidden="true"></i></a>
-                                <a href="https://www.quora.com/profile/Govindu-Reddeiah" class="inline-item"><i class="fab fa-2x fa-quora  text-danger shadow bg-light p-3 rounded-circle " aria-hidden="true"></i></a>
-                                <a href="https://www.facebook.com/govindu.jei.421467/" class="inline-item"><i class="fab fa-2x fa-facebook  shadow bg-light p-3  rounded-circle"></i></a>
-                                <a href="mailto:govindujei@gmail.com" class="inline-item"><i class="fas fa-2x fa-envelope  text-danger  shadow bg-light rounded-circle p-3 " aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/govindu-reddeiah" class="inline-item"><i class="fab fa-2x fa-linkedin  shadow rounded-circle p-3  rounded" aria-hidden="true"></i></a>
+                                <a href="https://www.quora.com/profile/Govindu-Reddeiah" class="inline-item"><i class="fab fa-2x fa-quora  text-danger shadow  p-3 rounded-circle " aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/govindu.jei.421467/" class="inline-item"><i class="fab fa-2x fa-facebook  shadow  p-3  rounded-circle"></i></a>
+                                <a href="mailto:govindujei@gmail.com" class="inline-item"><i class="fas fa-2x fa-envelope  text-danger  shadow  rounded-circle p-3 " aria-hidden="true"></i></a>
                                 <a href="tel:9866701519" class="inline-item"><i class="fas fa-2x fa-phone-square-alt text-info  shadow p-3 rounded-circle"></i></a>                     
                             </div>
-                  <h2 class="name text-center">I'm <strong>Govindu Reddeiah</strong></h2>
+                  <h2 class="name text-center">I'm <strong class="text-primary">Govindu Reddeiah</strong></h2>
                   <p class="role text-center">Front-End Developer</p>
-                  <div class="mt-4 text-center">
-                     <a href="skills.html"><button class="btn btn-primary ">Skills</button></a>
-                     <a href="skills.html"><button class="btn btn-primary mx-4  ">About</button></a>
-                     <a href="skills.html"><button class="btn btn-primary ">Projects</button></a>
+                  <div class="row">
+                      <div class="col">
+                        <div class="mt-4 text-center">
+                            <a href="skills.html"><button class="btn btn-info ">Skills</button></a>
+                            <a href="about.html"><button class="btn btn-danger mx-4  ">About</button></a>
+                            <a href="projects.html"><button class="btn btn-warning ">Projects</button></a>
+                         </div> 
+                      </div>
                   </div>
               </div>   
-        <div class="col-md-6 col-sm-12 ">
-             <p><img src="bg2.png" class="img-fluid mt-4" alt=""></p>   
-        </div>
-    </div> 
-</div>
-<!-- <footer>
-    <div class="conatiner bg-light" id="contact">
-        <div class="row">
-            <div class="col">
-                <div class="text-center">
-                    <h3>Connect me on...</h3>
-                    <a href="#"><i class="fab fa-2x fa-linkedin mr-3 mt-4 shadow bg-light rounded-circle p-3  rounded" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fab fa-2x fa-quora  mr-3 text-danger shadow bg-light p-3 rounded-circle " aria-hidden="true"></i></a>
-                    <a href="#"><i class="fab fa-2x fa-facebook mr-3   shadow bg-light p-3  rounded-circle"></i></a>
-                    <a href="#"><i class="fas fa-2x fa-envelope mr-3 text-danger  shadow bg-light rounded-circle p-3 " aria-hidden="true"></i></a>
-                    <a href="#"><i class="fas fa-2x fa-phone-square-alt text-info  shadow p-3 rounded-circle"></i></a>                     
-                </div>
-            </div>    
+        <div class="col-md-6 col-sm-12">
+             <p><img src="bg2.png" class="img-fluid mt-4 mb-5" alt=""></p>   
         </div>
     </div>
-</footer> -->
-    
+</div>   
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>    
 </body>
